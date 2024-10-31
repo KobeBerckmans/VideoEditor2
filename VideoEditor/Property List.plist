@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>&lt;key&gt;NSPhotoLibraryUsageDescription&lt;/key&gt;</key>
-	<string></string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We hebben toegang tot je fotobibliotheek nodig om video&apos;s te selecteren.</string>
 </dict>
 </plist>

@@ -25,7 +25,7 @@ struct VideoPicker: UIViewControllerRepresentable {
             self.parent = parent
         }
 
-        func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey: Any]) {
+        func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
             if let url = info[.mediaURL] as? URL {
                 parent.asset = AVAsset(url: url) // Sla de geselecteerde video op als AVAsset
             }
