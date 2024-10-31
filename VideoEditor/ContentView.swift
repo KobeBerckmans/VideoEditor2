@@ -1,21 +1,26 @@
-//
-//  ContentView.swift
-//  VideoEditor
-//
-//  Created by Kobe Berckmans on 31/10/2024.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundStyle(.tint)
+                Text("Hello, world!")
+                    .padding()
+
+                // Gebruik hier VideoEditorView in plaats van VideoEditorApp
+                NavigationLink(destination: VideoEditorView()) {
+                    Text("Open Video Editor")
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                }
+            }
+            .navigationTitle("Home")
         }
-        .padding()
     }
 }
 

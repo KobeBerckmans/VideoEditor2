@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		AD2016BD2CD3BD4A001C11FF /* VideoEditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2016BC2CD3BD4A001C11FF /* VideoEditorApp.swift */; };
-		AD2016BF2CD3BD4A001C11FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2016BE2CD3BD4A001C11FF /* ContentView.swift */; };
 		AD2016C12CD3BD4B001C11FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD2016C02CD3BD4B001C11FF /* Assets.xcassets */; };
 		AD2016C42CD3BD4B001C11FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD2016C32CD3BD4B001C11FF /* Preview Assets.xcassets */; };
 		AD2016CE2CD3BD4B001C11FF /* VideoEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2016CD2CD3BD4B001C11FF /* VideoEditorTests.swift */; };
 		AD2016D82CD3BD4B001C11FF /* VideoEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2016D72CD3BD4B001C11FF /* VideoEditorUITests.swift */; };
 		AD2016DA2CD3BD4B001C11FF /* VideoEditorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2016D92CD3BD4B001C11FF /* VideoEditorUITestsLaunchTests.swift */; };
+		AD2016E82CD3BE1F001C11FF /* GPUImage in Frameworks */ = {isa = PBXBuildFile; productRef = AD2016E72CD3BE1F001C11FF /* GPUImage */; };
+		AD2016EA2CD3BF38001C11FF /* VideoEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2016E92CD3BF38001C11FF /* VideoEditorViewController.swift */; };
+		AD2016EC2CD3BF52001C11FF /* FilterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2016EB2CD3BF52001C11FF /* FilterManager.swift */; };
+		AD2016EE2CD3BF68001C11FF /* VideoExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2016ED2CD3BF68001C11FF /* VideoExporter.swift */; };
+		AD2016F02CD3BF8B001C11FF /* VideoTrimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2016EF2CD3BF8B001C11FF /* VideoTrimmer.swift */; };
+		AD2016F42CD3C06E001C11FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2016F32CD3C06E001C11FF /* ContentView.swift */; };
+		AD2016F62CD3C0E1001C11FF /* VideoEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2016F52CD3C0E1001C11FF /* VideoEditorView.swift */; };
+		AD2016F82CD3C2AD001C11FF /* VideoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2016F72CD3C2AD001C11FF /* VideoPicker.swift */; };
+		AD2016FA2CD3C411001C11FF /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD2016F92CD3C411001C11FF /* Property List.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,6 @@
 /* Begin PBXFileReference section */
 		AD2016B92CD3BD4A001C11FF /* VideoEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD2016BC2CD3BD4A001C11FF /* VideoEditorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoEditorApp.swift; sourceTree = "<group>"; };
-		AD2016BE2CD3BD4A001C11FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AD2016C02CD3BD4B001C11FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD2016C32CD3BD4B001C11FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD2016C92CD3BD4B001C11FF /* VideoEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +51,14 @@
 		AD2016D32CD3BD4B001C11FF /* VideoEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD2016D72CD3BD4B001C11FF /* VideoEditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoEditorUITests.swift; sourceTree = "<group>"; };
 		AD2016D92CD3BD4B001C11FF /* VideoEditorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoEditorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AD2016E92CD3BF38001C11FF /* VideoEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoEditorViewController.swift; sourceTree = "<group>"; };
+		AD2016EB2CD3BF52001C11FF /* FilterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterManager.swift; sourceTree = "<group>"; };
+		AD2016ED2CD3BF68001C11FF /* VideoExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoExporter.swift; sourceTree = "<group>"; };
+		AD2016EF2CD3BF8B001C11FF /* VideoTrimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTrimmer.swift; sourceTree = "<group>"; };
+		AD2016F32CD3C06E001C11FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD2016F52CD3C0E1001C11FF /* VideoEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoEditorView.swift; sourceTree = "<group>"; };
+		AD2016F72CD3C2AD001C11FF /* VideoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPicker.swift; sourceTree = "<group>"; };
+		AD2016F92CD3C411001C11FF /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD2016E82CD3BE1F001C11FF /* GPUImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +111,14 @@
 			isa = PBXGroup;
 			children = (
 				AD2016BC2CD3BD4A001C11FF /* VideoEditorApp.swift */,
-				AD2016BE2CD3BD4A001C11FF /* ContentView.swift */,
+				AD2016F92CD3C411001C11FF /* Property List.plist */,
+				AD2016F32CD3C06E001C11FF /* ContentView.swift */,
+				AD2016F52CD3C0E1001C11FF /* VideoEditorView.swift */,
+				AD2016F72CD3C2AD001C11FF /* VideoPicker.swift */,
+				AD2016EF2CD3BF8B001C11FF /* VideoTrimmer.swift */,
+				AD2016ED2CD3BF68001C11FF /* VideoExporter.swift */,
+				AD2016EB2CD3BF52001C11FF /* FilterManager.swift */,
+				AD2016E92CD3BF38001C11FF /* VideoEditorViewController.swift */,
 				AD2016C02CD3BD4B001C11FF /* Assets.xcassets */,
 				AD2016C22CD3BD4B001C11FF /* Preview Content */,
 			);
@@ -143,6 +166,9 @@
 			dependencies = (
 			);
 			name = VideoEditor;
+			packageProductDependencies = (
+				AD2016E72CD3BE1F001C11FF /* GPUImage */,
+			);
 			productName = VideoEditor;
 			productReference = AD2016B92CD3BD4A001C11FF /* VideoEditor.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +241,9 @@
 				Base,
 			);
 			mainGroup = AD2016B02CD3BD4A001C11FF;
+			packageReferences = (
+				AD2016E62CD3BE1F001C11FF /* XCRemoteSwiftPackageReference "GPUImage3" */,
+			);
 			productRefGroup = AD2016BA2CD3BD4A001C11FF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD2016FA2CD3C411001C11FF /* Property List.plist in Resources */,
 				AD2016C42CD3BD4B001C11FF /* Preview Assets.xcassets in Resources */,
 				AD2016C12CD3BD4B001C11FF /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +287,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD2016BF2CD3BD4A001C11FF /* ContentView.swift in Sources */,
+				AD2016F02CD3BF8B001C11FF /* VideoTrimmer.swift in Sources */,
+				AD2016F82CD3C2AD001C11FF /* VideoPicker.swift in Sources */,
+				AD2016EE2CD3BF68001C11FF /* VideoExporter.swift in Sources */,
+				AD2016F62CD3C0E1001C11FF /* VideoEditorView.swift in Sources */,
+				AD2016F42CD3C06E001C11FF /* ContentView.swift in Sources */,
+				AD2016EA2CD3BF38001C11FF /* VideoEditorViewController.swift in Sources */,
 				AD2016BD2CD3BD4A001C11FF /* VideoEditorApp.swift in Sources */,
+				AD2016EC2CD3BF52001C11FF /* FilterManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +624,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AD2016E62CD3BE1F001C11FF /* XCRemoteSwiftPackageReference "GPUImage3" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BradLarson/GPUImage3";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AD2016E72CD3BE1F001C11FF /* GPUImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD2016E62CD3BE1F001C11FF /* XCRemoteSwiftPackageReference "GPUImage3" */;
+			productName = GPUImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AD2016B12CD3BD4A001C11FF /* Project object */;
 }
